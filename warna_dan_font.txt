@@ -1,0 +1,7 @@
+main bakcground color: #F1F5F8
+container background color: #FFFFFF
+title color: #102B42
+underline title color: #4CA7EA
+image shadow color: #49A6EA
+arrow navigation: #87C8F8
+font-family: Lato

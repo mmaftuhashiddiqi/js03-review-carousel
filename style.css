@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1F5F8;
+    font-family: Lato, sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: -47px;
+    color: #102B42;
+}
+
+.underline {
+    display: inline-block;
+    transform: scale(3, 1);
+    margin-bottom: 55px;
+    color: #4CA7EA;
+}
+
+.card {
+    box-sizing: border-box; /* Safari / Chrome */
+    -moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box; /* Opera / IE 8+ */
+    width: 600px;
+    height: 400px;
+    padding: 25px;
+    overflow: auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #CCC;
+    font-size: 15px;
+}
+
+.picture {
+    position: relative;
+}
+
+.quote {
+    transform: rotate(180deg);
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    background-color: #49A6EA;
+    border-radius: 50%;
+    position: absolute;
+    top: 13px;
+}
+
+.pict-profile {
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+    border-radius: 50%;
+    box-shadow: 6px -3px #49A6EA;
+}
+
+.name {
+    margin-bottom: 7px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.profession {
+    margin-top: 7px;
+    font-size: 13px;
+    color: #49A6EA;
+}
+
+.description p {
+    line-height: 22px;
+    color: #798495;
+}
+
+button {
+    background-color: transparent;
+}
+
+.left-arrow, .right-arrow {
+    margin-bottom: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    border: none;
+    cursor: pointer;
+    transform: scale(1, 2);
+    color: #87C8F8;
+    font-weight: bold;
+}
+
+.surprise {
+    padding: 3px;
+    cursor: pointer;
+    border: 2px solid #49A6EA;
+    border-radius: 7px;
+    background-color: #F1F5F8;
+    color: #49A6EA;
+}
